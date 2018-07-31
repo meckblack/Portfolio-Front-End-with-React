@@ -8,8 +8,11 @@ export default class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2> Welcomr to CodeLife</h2>
+                    <h2> Welcome to Meck First React Application</h2>
                 </Jumbotron>
+                <Link to="/about">
+                    <Button bsStyle="primary">About</Button>
+                </Link>
             </Grid>
         );
     }
