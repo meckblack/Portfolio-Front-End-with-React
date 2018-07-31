@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
+
 export default class NavBar extends Component {
     render(){
         return (
-            <Navbar defaul collapseOnSelect>
+            <div>
+            </div>
+            /*<Navbar defaul collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/">
@@ -27,7 +30,9 @@ export default class NavBar extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
-        )
+            </Navbar>*/
+            
+    
+        );
     }
 }
